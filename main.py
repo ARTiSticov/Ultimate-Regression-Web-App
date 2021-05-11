@@ -308,7 +308,7 @@ st.sidebar.info(f'R2 Score = {Score}')
 
 if st.sidebar.button("what is R2 Score ?"):
     result=st.sidebar.write("R2  compares the fit of the chosen model with that of a horizontal straight line (the null hypothesis).\
-        If the chosen model fits worse than a horizontal line, then R2 is negative")
+        If the chosen model fits worse than a horizontal line, then R2 is negative.")
 
 
          
