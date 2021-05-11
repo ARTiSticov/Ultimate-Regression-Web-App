@@ -176,7 +176,7 @@ def dataset_input(dataset_name):
         
         
     if dataset_name == "Real Estate Price Prediction":
-        st.subheader("Determine the expected profit on startup of a company")
+        
         user_input1=st.slider("House Age", 0, 44, step=1)
         user_input2=st.slider("Distance to the nearest MRT station", 23.00, 6500.00)
         user_input3=st.slider("Number of convenience stores", 0, 10, step=1)
